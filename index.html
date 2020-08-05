@@ -22,8 +22,68 @@
     <link rel="stylesheet" href="/css/main-banner.css" />
     <link rel="stylesheet" href="/css/container.css" />
     <link rel="stylesheet" href="/css/about-us.css" />
+    <link rel="stylesheet" href="/css/main-nav.css" />
   </head>
+
   <body>
+
+<nav class="main-nav">
+    <div class="main-nav__content">
+        <div class="main-nav__logo">
+            <a href="#" class="main-nav__logo-link">
+                <img src="/images/logo.png" alt="Logo" class="main-nav__logo-image">
+                KSM
+            </a>
+        </div>
+        <ul class="main-nav__menu js-main-nav__menu">
+            <li class="main-nav__menu-item">
+                <a href="#" class="main-nav__link">
+                    Home
+                </a>
+            </li>
+            <li class="main-nav__menu-item">
+                <a href="#about-us" class="main-nav__link">
+                    O nas
+                </a>
+            </li>
+            <li class="main-nav__menu-item">
+                <a href="#meetings" class="main-nav__link">
+                    Spotkania
+                </a>
+            </li>
+            <li class="main-nav__menu-item">
+                <a href="#gallery" class="main-nav__link">
+                    Galeria
+                </a>
+            </li>
+            <li class="main-nav__menu-item">
+                <a href="#contact" class="main-nav__link">
+                    Kontakt
+                </a>
+            </li>
+            <li class="main-nav__menu-item">
+                <a href="#map" class="main-nav__link">
+                    Jak dojechać
+                </a>
+            </li>
+            <li class="main-nav__menu-item">
+                <a href="https://www.facebook.com/KSM-Katedralni-Lublin-709049262562428/?ref=page_internal"
+                target="_blank"
+                class="main-nav__link">
+                    <img src="/images/fb.png" alt="FB" class="main-nav__social-icon">
+                </a>
+            </li>
+            
+        </ul>
+        <button class="main-nav__mobile-button js-main-nav__mobile-button">
+          <img src="https://img.icons8.com/cotton/64/000000/button--v1.png"
+          alt="Otwórz / zamknij nawigację" class="main-nav__mobile-button-image"/>          
+          </button>
+    </div>
+</nav>
+
+<script src="/js/main-nav.js"></script>
+
     <section class="main-banner">
       <a href="#about-us" class="main-banner__button">
         Kim jeste&sacute;my&quest;
@@ -31,7 +91,7 @@
     </section>
 
     
-    <div class="container">
+    <div class="container" id="about-us">
       <section class="about-us">
           <div class="about-us__text">
         <h3 class="about-us__header">
