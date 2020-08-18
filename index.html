@@ -1,18 +1,283 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>KSM Katedralni</title>
+    <meta
+      name="description"
+      content="Jesteśmy katolicką wspólnotą, która ma na celu kształtowanie w młodych dojrzałych postaw chrześcijańskich przez formację i działanie."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main-banner.css" />
+    <link rel="stylesheet" href="/css/container.css" />
+    <link rel="stylesheet" href="/css/about-us.css" />
+    <link rel="stylesheet" href="/css/main-nav.css" />
+    <link rel="stylesheet" href="/css/bookmark.css" />
+    <link rel="stylesheet" href="/css/meetings.css" />
+    <link rel="stylesheet" href="/css/gallery.css" />
+    <link rel="stylesheet" href="/css/contact-form.css" />
+    <link rel="stylesheet" href="/css/map.css" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-<title>KSM Katedralni</title>
-<meta name="description" content="Jesteśmy katolicką wspólnotą, która ma na celu kształtowanie w młodych dojrzałych postaw chrześcijańskich przez formację i działanie.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
-integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
-crossorigin="anonymous" />
-<link rel="stylesheet" href="/css/global.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    Hello world!
-</body>
+  <body>
+    <nav class="main-nav">
+      <div class="main-nav__content">
+        <div class="main-nav__logo">
+          <a href="#" class="main-nav__logo-link">
+            <img
+              src="/images/logo.png"
+              alt="Logo"
+              class="main-nav__logo-image"
+            />
+            KSM
+          </a>
+        </div>
+        <ul class="main-nav__menu js-main-nav__menu">
+          <li class="main-nav__menu-item">
+            <a href="#" class="main-nav__link">
+              Home
+            </a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#about-us" class="main-nav__link">
+              O nas
+            </a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#meetings" class="main-nav__link">
+              Spotkania
+            </a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#gallery" class="main-nav__link">
+              Galeria
+            </a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#contact" class="main-nav__link">
+              Kontakt
+            </a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#map" class="main-nav__link">
+              Jak dojechać
+            </a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a
+              href="https://www.facebook.com/KSM-Katedralni-Lublin-709049262562428/?ref=page_internal"
+              target="_blank"
+              class="main-nav__link"
+            >
+              <img
+                src="/images/fb.png"
+                alt="FB"
+                class="main-nav__social-icon"
+              />
+            </a>
+          </li>
+        </ul>
+        <button class="main-nav__mobile-button js-main-nav__mobile-button">
+          <img
+            src="images/button.png"
+            alt="Otwórz / zamknij nawigację"
+            class="main-nav__mobile-button-image"
+          />
+        </button>
+      </div>
+    </nav>
+
+    <script src="/js/main-nav.js"></script>
+
+    <section class="main-banner">
+      <a href="#about-us" class="main-banner__button">
+        Kim jeste&sacute;my&quest;
+      </a>
+    </section>
+
+    <div class="container" id="about-us">
+      <section class="about-us">
+        <div class="about-us__text">
+          <h3 class="about-us__header">
+            Katolickie Stowarzyszenie Młodzieży
+          </h3>
+          <p class="about-us__paragraph">
+            KSM jest stowarzyszeniem kościelnym, posiadającym struktury ogólnopolskie. Nasz oddział "Katedralni"
+przy parafii Archikatedralnej św. Jana Chrzciciela i św. Jana Ewangelisty jest jednym z 46 oddziałów działających
+obecnie na Lubelszczyźnie. W ramach tej małej części wielkiej wspólnoty spotykamy się już od ośmiu lat :)
+          </p>
+          <p class="about-us__paragraph">
+            KSM opiera się na dwóch filarach: formacji i działaniu. 
+            Formacja oparta jest na życiu sakramentalnym, medytacji Pisma Świętego, adoracji Najświętszego Sakramentu.
+            Działanie ma dwa wymiary - środowisko lokalne (parafia/szkoła/uczelnia) oraz na Lubelszczyźnie (Archidiecezja Lubelska).
+            KSM AL organizuje m. in. wypoczynek letni dla dzieci i młodzieży, Bal Młodych, Drogę Krzyżową na Majdanku, 
+            Akcję Palmę czy obchody Święta Patronalnego, w które aktywnie się włączamy.
+          </p>
+        </div>
+        <img class="about-us__image" src="/images/about-us.jpg" alt="" />
+      </section>
+    </div>
+
+    <section class="bookmark" id="meetings">
+      <h2 class="bookmark__header">Spotkania</h2>
+      <p class="bookmark__description">O co się modlimy, o czym rozmawiamy?</p>
+    </section>
+
+    <div class="container" id="meetings">
+      <section class="meetings">
+        <div class="meetings__text">
+          <h3 class="meetings__header">
+            Modlisz - masz!
+          </h3>
+          <p class="meetings__paragraph">
+            W naszym Oddziale piątkowe spotkania o godz. 19 (ul. Królewska 10) mają formę dyskusyjną - tematykę wybieramy wspólnie zgodnie
+            z pojawiającymi się pytaniami dotyczącymi wiary czy treści Katechizmu.
+            Jak to jest z tymi "rozwodami" kościelnymi? Co ma prawo podatkowe do grzechów wołających o
+            pomstę do Nieba? Co KKK mówi o zbrojnych powstaniach?
+          </p>
+          <p class="meetings__paragraph">
+            "Podstawowe" nauczanie o Dekalogu czy głównych prawdach wiary nie raz uświadomiło nam naszą
+            niewiedzę. Razem rozważamy Słowo, razem modlimy, razem doświadczamy małych i wielkich cudów.
+            Jednym z nich są choćby dwa małżeństwa, zawiązane wśród członków "Katedralnych".
+          </p>
+        </div>
+        <img class="meetings__image" src="/images/meetings.jpg" alt="" />
+      </section>
+    </div>
+
+    <section class="bookmark" id="gallery">
+      <h2 class="bookmark__header">Galeria</h2>
+      <p class="bookmark__description">My - w działaniu i formacji</p>
+    </section>
+
+    <div class="container">
+      <ul class="gallery">
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/1.jpg" alt="" />
+          </li>
+        </div>
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/2.jpg" alt="" />
+          </li>
+        </div>
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/3.jpg" alt="" />
+          </li>
+        </div>
+
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/4.jpg" alt="" />
+          </li>
+        </div>
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/5.jpg" alt="" />
+          </li>
+        </div>
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/6.jpg" alt="" />
+          </li>
+        </div>
+
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/7.jpg" alt="" />
+          </li>
+        </div>
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/8.jpg" alt="" />
+          </li>
+        </div>
+        <div class="gallery__aspect-ratio">
+          <li class="gallery__list-item">
+            <img class="gallery__image" src="/images/9.jpg" alt="" />
+          </li>
+        </div>
+      </ul>
+    </div>
+
+    <section class="bookmark" id="contact">
+      <h2 class="bookmark__header">Kontakt</h2>
+      <p class="bookmark__description">Chętnie odpowiemy na pytania :)</p>
+    </section>
+
+    <form class="contact-form">
+      <div class="container container--smaller">
+        <div class="contact-form__info">
+          <div class="contact-form__info-item">
+            <img
+              src="images/mail.svg"
+              alt="e-mail"
+              class="contact-form__info-icon"
+            />
+            <a href="mailto:ksm@katedralni.pl" class="contact-form__info-link"
+              >ksm@katedralni.pl</a
+            >
+          </div>
+          <div class="contact-form__info-item">
+            <img
+              src="images/phone.svg"
+              alt="phone"
+              class="contact-form__info-icon"
+            />
+            <a href="tel:555333222" class="contact-form__info-link"
+              >555 333 222</a
+            >
+          </div>
+        </div>
+        <p class="contact-form__header">
+          Do zobaczenia w piątek o 19:00 w salce "Wieczernik" <br />
+          ul. Królewska 10 Lublin (obok Katedry)
+        </p>
+        <div class="contact-form__fields">
+          <input
+            name="name"
+            class="contact-form__field"
+            required
+            placeholder="Imię i nazwisko"
+          />
+          <input
+            name="email"
+            type="email"
+            class="contact-form__field"
+            required
+            placeholder="adres e-mail"
+          />
+          <textarea
+            placeholder="Treść wiadomości"
+            class="contact-form__field contact-form__field--full-row"
+            name="content"
+            required
+            rows="10"
+          ></textarea>
+        </div>
+        <button class="contact-form__submit-button">Wyślij</button>
+      </div>
+    </form>
+
+    <section class="bookmark" id="map">
+      <h2 class="bookmark__header">Jak dojechać</h2>
+      <p class="bookmark__description">Tu nas znajdziesz</p>
+    </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.5034960394646!2d22.56641281592098!3d51.24663833755614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722576af6701a23%3A0xbfaf15b922246bdd!2sKr%C3%B3lewska%2010%2C%2020-400%20Lublin!5e0!3m2!1spl!2spl!4v1597058089781!5m2!1spl!2spl" 
+    class="map"></iframe>
+  </body>
 </html>
